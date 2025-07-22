@@ -1,0 +1,2 @@
+-- SELECAO DE CARACTERES NAO NUMERICOS E NAO ALFABETICOS
+SELECT codigo, descricao FROM produtos WHERE descricao REGEXP '[^a-zA-Z0-9]'
